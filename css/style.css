@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'MyWebFont';
+	src: url(type/Molot.otf);
+}
+
+body {
+	background: #CF4FA6;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'MyWebFont', Arial, sans-serif;
+	letter-spacing: 6px;
+	color: #ffffff;
+	text-shadow: 0px 8px 0px #983B7B;
+	font-size: 70px;
+	/*background: #E2DDE0;*/
+	padding: 60px 0 40px 0;
+}
+
+p.score {
+	position: absolute;
+	top: 0;
+}
+
+
+div.circle {
+	border: 1px solid #DAF2C6;
+	background: #DAF2C6;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 150px;
+}
+
+div.triangle {
+	width: 0;
+	height: 0;
+	border-left: 180px solid transparent;
+	border-right: 180px solid transparent;
+	border-bottom: 300px solid #DAF2C6;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+div.square {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #DAF2C6;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #DAF2C6;
+	transform: translate(-50%, -50%);
+}
+
+
+h2 {
+	font-family: 'MyWebFont', Arial, sans-serif;
+	color: #ffffff;
+	position: absolute;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-shadow: 0px 4px 0px #983B7B;
+	left: 50%;
+	bottom: 15%;
+	transform: translateX(-50%);
+}
+
+p {
+	font-family: 'MyWebFont', Arial, sans-serif;
+	color: #ffffff;
+	position: absolute;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-shadow: 0px 4px 0px #983B7B;
+	left: 50%;
+	bottom: 10%;
+	transform: translateX(-50%);
+}
